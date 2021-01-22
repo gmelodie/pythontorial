@@ -1,0 +1,25 @@
+- Python & APIs
+    - URLs -> url checker
+    - HTML
+        -> html parser
+        -> server
+    - Domains
+        -> lookup/ip resolution
+    - HTTP
+        - Part 1: overview (URL, html, methods, headers, JSON)
+        - Part 2: tooling (postman, requests.py, browser tools, etc)
+    - Sockets
+    - Ports
+    - Protocols
+        -> receive/send over UDP
+    - Client-server
+        -> build your own server
+
+Story
+    - students' marks
+
+Platform
+    - plain HTML
+    - choose language (pt, en, fr)
+    - hints, ask for help
+
