@@ -1,17 +1,17 @@
-## PythonTorial
+# PythonTorial
 Learn the basics of the web with Python.
 
-### Week 1: URLs
+## Week 1: URLs
 
 URLs, or Uniform Resource Locators, are strings of text we use to identify a certain thing inside the web. 
 
 For example, the URL for the google page is `www.google.com`, or, more completely, `http://www.google.com`. But URLs are not only for web pages, they can locate all sorts of resources in the web. For instance, here's a URL for a dog picture: `https://unsplash.com/photos/9JuzOoPcuHI`.
 
-**Obs**: They are a type of URI (Uniform Resource Identifier) and, although these are technically different things, we'll use URI and URL interchangeably.
+**Obs**: URL is a type of URI (Uniform Resource Identifier) and, although these are technically different things, we'll use URI and URL interchangeably.
 
 **Obs 2**: Don't worry about the specific functions of each part of a URL for now, we'll dig deeper into that over the following days.
 
-### Week 1 challenge
+## Week 1 challenge
 Here's the general schema for a URL:
 ```
 URI = scheme:[//authority]path[?query][#fragment]
