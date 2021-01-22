@@ -1,37 +1,34 @@
-## Welcome to GitHub Pages
+## PythonTorial
+Learn the basics of the web with Python.
 
-You can use the [editor on GitHub](https://github.com/gmelodie/pythontorial/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+### Week 1: URLs
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+URLs, or Uniform Resource Locators, are strings of text we use to identify a certain thing inside the web. 
 
-### Markdown
+For example, the URL for the google page is `www.google.com`, or, more completely, `http://www.google.com`. But URLs are not only for web pages, they can locate all sorts of resources in the web. For instance, here's a URL for a dog picture: `https://unsplash.com/photos/9JuzOoPcuHI`.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+**Obs**: They are a type of URI (Uniform Resource Identifier) and, although these are technically different things, we'll use URI and URL interchangeably.
 
-```markdown
-Syntax highlighted code block
+**Obs 2**: Don't worry about the specific functions of each part of a URL for now, we'll dig deeper into that over the following days.
 
-# Header 1
-## Header 2
-### Header 3
+### Week 1 challenge
+Here's the general schema for a URL:
+```
+URI = scheme:[//authority]path[?query][#fragment]
+```
+Read about the syntax on [the Wikipedia page](https://en.wikipedia.org/wiki/URL#Syntax) and build a parser that receives the URL string and prints `True` if the URL is valid or `False` otherwise.
 
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+**Test cases**:
+```
+https://google.com                                              # True
+://google.com                                                   # False
+ftp://gmelodie:ilovepython@mysite.com.br                        # True
+http://gmelodie.me/resume.pdf                                   # True
+https://en.wikipedia.org/wiki/URL#Syntax                        # True
+https://en.#wikipedia.org/wiki/URL#Syntax                       # False
+google.com                                                      # False
+https://www.google.com/search?hl=pt&q=i%20love%20python         # True
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+*Hint*: [This syntax analyzing flow](https://en.wikipedia.org/wiki/URL#/media/File:URI_syntax_diagram.svg) is very helpful.
 
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/gmelodie/pythontorial/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
