@@ -1,7 +1,4 @@
-# PythonTorial
-Learn the basics of the web with Python.
-
-## Week 1: URLs
+# Week 1: URLs
 
 URLs, or Uniform Resource Locators, are strings of text we use to identify a certain thing inside the web. 
 
