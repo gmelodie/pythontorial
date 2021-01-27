@@ -7,7 +7,6 @@ URLs, or Uniform Resource Locators, are strings of text we use to identify a cer
 **Obs 2**: Don't worry about the specific functions of each part of a URL for now, we'll dig deeper into that over the following days.
 
 ## Challenge
->>>>>>> 4c650d9 (Add week 2)
 Here's the general schema for a URL:
 ```
 URI = scheme:[//authority]path[?query][#fragment]
