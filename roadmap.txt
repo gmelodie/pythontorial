@@ -2,21 +2,20 @@
     - URLs -> url checker
     - HTML
         -> html parser
-        -> server
+    - HTTP
+        - Part 1: URL, methods
+            -> get, post
+        - Part 2: headers, body, JSON
+        - Part 3: tooling (postman, requests.py, browser tools, etc)
     - Domains
         -> lookup/ip resolution
-    - HTTP
-        - Part 1: overview (URL, html, methods, headers, JSON)
-        - Part 2: tooling (postman, requests.py, browser tools, etc)
-    - Sockets
     - Ports
     - Protocols
         -> receive/send over UDP
+    - Sockets
     - Client-server
         -> build your own server
-
-Story
-    - students' marks
+        -> HTTP server
 
 Platform
     - plain HTML
