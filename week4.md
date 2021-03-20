@@ -1,6 +1,6 @@
 # Week 4: JSON
 
-So far we've only seen HTTP being used to send HTML files (because duh, it's in the name), but HTTP nowadays is used to transfer all kinds of different data. JSON stands for JavaScript Object Notation. Here, let's take a look at an example of a JSON file:
+So far we've only seen HTTP being used to send HTML files (because duh, it's in the name), but HTTP nowadays is used to transfer all kinds of different data. JSON stands for JavaScript Object Notation. Don't let the name fool you, JSON is used in almost every programming language to exchange data. Here, let's take a look at an example of a JSON file:
 
 ```json
 {
@@ -28,7 +28,7 @@ So far we've only seen HTTP being used to send HTML files (because duh, it's in 
 ```
 Source: [json.org](https://json.org/example.html)
 
-As you can see that's very similar to a [python dictionary](https://realpython.com/python-dicts/). JSON is used for a variety of different cases, but my favorite is that it's able to transfer information from one program to the other -- doesn't matter if they are written in different languages or running in different machines.
+As you can see that's very similar to a [python dictionary](https://realpython.com/python-dicts/). JSON is used for a lot of different things, but my favorite is that it's able to transfer information from one program to the other -- doesn't matter if they are written in different programming languages or running in different machines.
 
 ## Challenge
 
